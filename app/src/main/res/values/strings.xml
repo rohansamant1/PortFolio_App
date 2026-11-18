@@ -1,6 +1,5 @@
 <resources>
-    <string name="app_name">My Application</string>
-    <string name="hello_android">Hello Android!</string>
+    <string name="app_name">Portfolio App</string>
     <string name="name">"Rohan Singh Samant "</string>
     <string name="designation">Student</string>
     <string name="btn_text">Skills</string>
