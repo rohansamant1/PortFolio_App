@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="hello_android">Hello Android!</string>
+    <string name="name">"Rohan Singh Samant "</string>
+    <string name="designation">Student</string>
+    <string name="btn_text">Skills</string>
+    <string name="btn2_text">Education</string>
+    <string name="btn3_text">Work Experience</string>
+    <string name="btn4_text">Achievements</string>
+</resources>
