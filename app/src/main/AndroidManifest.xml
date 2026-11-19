@@ -30,11 +30,11 @@
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".AchivementActivity"
+            android:name=".AchievementActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
         <activity
-            android:name=".WorkExpAcrivity"
+            android:name=".WorkExperienceActivity"
             android:exported="false"
             android:windowSoftInputMode="adjustResize" />
     </application>

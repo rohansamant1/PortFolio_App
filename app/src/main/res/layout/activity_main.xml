@@ -13,7 +13,8 @@
         android:layout_height="200dp"
         android:padding="10dp"
         android:layout_margin="20dp"
-        android:src="@drawable/pic"/>
+        android:contentDescription="@string/profile_image_desc"
+        android:src="@drawable/pic" />
 
     <TextView
         android:id="@+id/tvName"
@@ -46,18 +47,20 @@
 
         <Button
             android:id="@+id/btnSkills"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_margin="20dp"
             android:layout_weight="1"
+            tools:ignore="ButtonStyle"
             android:text="@string/btn_text" />
 
         <Button
             android:id="@+id/btnEdu"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_margin="20dp"
             android:layout_weight="1"
+            tools:ignore="ButtonStyle"
             android:text="@string/btn2_text" />
 
     </LinearLayout>
@@ -69,22 +72,22 @@
 
         <Button
             android:id="@+id/btnWxp"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_margin="20dp"
             android:layout_weight="1"
+            tools:ignore="ButtonStyle"
             android:text="@string/btn3_text" />
 
         <Button
             android:id="@+id/btnAchiev"
-            android:layout_width="100dp"
+            android:layout_width="0dp"
             android:layout_height="80dp"
             android:layout_margin="20dp"
             android:layout_weight="1"
+            tools:ignore="ButtonStyle"
             android:text="@string/btn4_text" />
 
-
     </LinearLayout>
-
 
 </LinearLayout>

@@ -19,24 +19,27 @@ class MainActivity : AppCompatActivity() {
             insets
         }
 
-        val buttonSkills= findViewById<Button>(R.id.btnSkills)
+        val buttonSkills = findViewById<Button>(R.id.btnSkills)
         buttonSkills.setOnClickListener {
             val intent = Intent(this, SkillsActivity::class.java)
             startActivity(intent)
         }
-        val buttonEducation= findViewById<Button>(R.id.btnEdu)
+
+        val buttonEducation = findViewById<Button>(R.id.btnEdu)
         buttonEducation.setOnClickListener {
             val intent = Intent(this, EducationActivity::class.java)
             startActivity(intent)
         }
-        val buttonAchivement= findViewById<Button>(R.id.btnAchiev)
-        buttonAchivement.setOnClickListener {
-            val intent = Intent(this, AchivementActivity::class.java)
+
+        val buttonAchievement = findViewById<Button>(R.id.btnAchiev)
+        buttonAchievement.setOnClickListener {
+            val intent = Intent(this, AchievementActivity::class.java)
             startActivity(intent)
         }
-        val buttonWorkxp= findViewById<Button>(R.id.btnWxp)
-        buttonWorkxp.setOnClickListener {
-            val intent = Intent(this, WorkExpAcrivity::class.java)
+
+        val buttonWorkExp = findViewById<Button>(R.id.btnWxp)
+        buttonWorkExp.setOnClickListener {
+            val intent = Intent(this, WorkExperienceActivity::class.java)
             startActivity(intent)
         }
     }
